@@ -1,0 +1,127 @@
+/* font start */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300&display=swap");
+.font-bebas {
+  font-family: Bebas Neue;
+}
+@font-face {
+  font-family: PaybAck;
+  src: url("../assets/font/PaybAck.ttf");
+}
+
+.font-payback {
+  font-family: PaybAck;
+}
+* {
+  font-family: Poppins;
+}
+.fs-60 {
+  font-size: 60px;
+}
+.fs-45 {
+  font-size: 45px;
+}
+/* font end */
+
+/* navbar toggle start*/
+.navbar-toggler {
+  border: 0;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+
+.toggler-icon {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 3px;
+  transition: all 0.5s;
+}
+
+.mid-bar {
+  margin: 5px auto;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg) translate(-1px, -1.5px);
+  transform-origin: 10% 9%;
+  -webkit-transform: rotate(45deg) translate(-1px, -1px);
+  -moz-transform: rotate(45deg) translate(-1px, -1.5px);
+  -ms-transform: rotate(45deg) translate(-1px, -1.5px);
+  -o-transform: rotate(45deg) translate(-1px, -1.5px);
+}
+
+.navbar-toggler .mid-bar {
+  opacity: 0;
+  filter: alpha(opacity-0);
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg) translate(-1px, -1.5px);
+  transform-origin: 10% 9%;
+  -webkit-transform: rotate(-45deg) translate(-1px, -1.5px);
+  -moz-transform: rotate(-45deg) translate(-1px, -1.5px);
+  -ms-transform: rotate(-45deg) translate(-1px, -1.5px);
+  -o-transform: rotate(-45deg) translate(-1px, -1.5px);
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .mid-bar {
+  opacity: 1;
+  filter: alpha(opacity-100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+/* navbar toggle start*/
+
+/* bg dan text custume start */
+.banner-image {
+  background-image: url("../img/indigo2.jpg");
+  background-size: cover;
+}
+.banner-img {
+  background-image: url("../img/indigo7.jpg");
+  background-size: cover;
+}
+.banner-im {
+  background-image: url("../img/indigo3.jpg");
+  background-size: cover;
+}
+.banner-in {
+  background-image: url("../img/indigo11.jpg");
+  background-size: cover;
+}
+.bg-awal {
+  background-color: #13334c;
+}
+
+.text-awal {
+  color: #13334c;
+}
+
+.bg-aneh {
+  background-color: #dff6ff;
+}
+.scale-obj {
+  overflow: hidden;
+  transition: 0.5s;
+}
+.scale-obj:hover {
+  transform: scale(1.05);
+}
+/* bg dan text custume start */
